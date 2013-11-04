@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Multilatex
+title: Contents
 ---
 
 <ol class="posts">
