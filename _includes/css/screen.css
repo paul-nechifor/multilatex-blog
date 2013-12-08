@@ -13,32 +13,28 @@ body {
   color: #222222;
   line-height: 24px;
   margin: 0;
-  border-top: 7px solid {{ site.theme.highlight_color }};
+  border-top: 7px solid {{site.theme.highlight_color}};
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
-  font-family: "open sans", sans-serif;
-  font-weight: 600;
-}
-
-h1.title {
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
+h1.title {
+}
+
 h1 {
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 38px;
 }
 
 h2 {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 21px;
-  line-height: 24px;
+  font-size: 24px;
   margin: 1em 0;
 }
 
@@ -55,10 +51,6 @@ a {
 a:hover {
   color: {{ site.theme.highlight_color }};
   text-decoration: underline;
-}
-
-a:visited {
-  color: {{ site.theme.highlight_color }};
 }
 
 table {
@@ -152,7 +144,11 @@ nav hr {
 }
 
 .sidebar a {
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.sidebar h1, .sidebar h2 {
+  color: #777;
 }
 
 .content {
@@ -251,4 +247,8 @@ i.fa-hn {
   text-align: center;
   font-size: smaller;
   padding-bottom: 10px
+}
+
+.hidden-link {
+  color: inherit;
 }

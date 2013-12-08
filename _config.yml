@@ -1,6 +1,6 @@
 # General Jekyll Config
 pygments: true
-url: http://example.com
+url: http://blog.multilatex.com
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
 
@@ -35,4 +35,4 @@ theme:
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://multilatex.github.io
+production_url : http://blog.multilatex.com
