@@ -213,19 +213,9 @@ i.fa-hn {
   color: white;
 }
 
-.home {
-  font-size: 24px;
-  float: right;
-  color: #AAA;
-}
-
-.home:hover {
-  text-decoration: none;
-}
-
 .disclaimer p {
   margin-top: 5px;
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
 }
 

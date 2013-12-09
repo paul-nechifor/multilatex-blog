@@ -3,28 +3,18 @@ pygments: true
 url: http://blog.multilatex.com
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
-
-# This is the default format. 
-# For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:year-:month-:day/:title 
 
-# Theme customization - please change from the defaults!
 theme:
-  # Color for top bar, links, etc
-  highlight_color: '#3498db'
-
-  # Profile links on the left sidebar, leave blank to ignore
-  social:
-    github: paul-nechifor
-
   title: Multilatex
   name: Paul Nechifor
   email: paul@nechifor.net
   website: http://nechifor.net
   tagline: "Building a collaborative web Latex editor."
-
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-xxxx-x
+  social:
+    github: paul-nechifor
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
 
 
 # The production_url is only used when full-domain names are needed
