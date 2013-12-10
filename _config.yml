@@ -3,7 +3,7 @@ pygments: true
 url: http://blog.multilatex.com
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
-permalink: /:year-:month-:day/:title 
+permalink: /:title
 
 theme:
   title: Multilatex
@@ -15,7 +15,6 @@ theme:
     github: paul-nechifor
   # Color for top bar, links, etc
   highlight_color: '#3498db'
-
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

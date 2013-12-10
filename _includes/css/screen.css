@@ -26,16 +26,16 @@ h1.title {
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 42px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 h3 {
-  font-size: 24px;
-  margin: 1em 0;
+  font-size: 20px;
+  line-height: 1;
 }
 
 ul {
