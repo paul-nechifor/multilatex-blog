@@ -1,9 +1,9 @@
 # General Jekyll Config
 pygments: true
-url: http://blog.multilatex.com
+url: http://multilatex.com/blog
 lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore]
-permalink: /:title
+exclude: [LICENSE, README.md, .gitignore]
+permalink: /blog/:title
 
 theme:
   title: Multilatex
@@ -15,13 +15,3 @@ theme:
     github: paul-nechifor
   # Color for top bar, links, etc
   highlight_color: '#3498db'
-
-# The production_url is only used when full-domain names are needed
-# such as sitemap.txt 
-# Most places will/should use BASE_PATH to make the urls
-#
-# If you have set a CNAME (pages.github.com) set your custom domain here.
-# Else if you are pushing to username.github.io, replace with your username.
-# Finally if you are pushing to a GitHub project page, include the project name at the end.
-#
-production_url : http://blog.multilatex.com
