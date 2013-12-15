@@ -1,12 +1,9 @@
 ---
-layout: default
-title: "All posts"
 ---
-
-{% for post in site.posts reversed %}
+{% for post in site.posts limit:5 %}
   <h1 class="title">{{ post.title }}</h1>
 
-  <div id="post">
+  <div class="post">
     {{ post.content }}
   </div>
 {% endfor %}

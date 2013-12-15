@@ -2,8 +2,7 @@
 pygments: true
 url: http://multilatex.com/blog
 lsi: false
-exclude: [LICENSE, README.md, .gitignore]
-permalink: /blog/:title
+permalink: /blog-data/posts/:title.html
 
 theme:
   title: Multilatex
@@ -11,7 +10,3 @@ theme:
   email: paul@nechifor.net
   website: http://nechifor.net
   tagline: "Building a collaborative web Latex editor."
-  social:
-    github: paul-nechifor
-  # Color for top bar, links, etc
-  highlight_color: '#3498db'

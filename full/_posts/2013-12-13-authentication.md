@@ -4,7 +4,7 @@ title: "Authentication"
 ---
 
 In light of the somewhat recent revelations of [Adobe's password leak][leak] I
-think it's important to stress secure storage of passwords.
+think it's important to stress the importance of secure storage of passwords.
 
 I use the simple and secure method of hashing with SHA1 and unique salt.
 Technically, bcrypt is better, but I don't have the hardware resources for that.

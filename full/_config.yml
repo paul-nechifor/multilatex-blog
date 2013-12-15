@@ -1,0 +1,16 @@
+# General Jekyll Config
+pygments: true
+url: http://multilatex.com/blog
+lsi: false
+permalink: /blog/:title
+
+theme:
+  title: Multilatex
+  name: Paul Nechifor
+  email: paul@nechifor.net
+  website: http://nechifor.net
+  tagline: "Building a collaborative web Latex editor."
+  social:
+    github: paul-nechifor
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
