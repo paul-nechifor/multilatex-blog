@@ -1,12 +1,13 @@
 # General Jekyll Config
 pygments: true
+urlRoot: http://multilatex.com
 url: http://multilatex.com/blog
 lsi: false
-permalink: /blog-data/posts/:title.html
+exclude: [README.md, .gitignore, Makefile]
+permalink: /blog/:title
 
 theme:
   title: Multilatex
   name: Paul Nechifor
   email: paul@nechifor.net
   website: http://nechifor.net
-  tagline: "Building a collaborative web Latex editor."

@@ -1,18 +1,16 @@
-.PHONY: all full raw clean copy
+.PHONY: all site clean
 
-all: clean full raw
-
-full:
-	jekyll build -s full -d full/_site
-
-raw:
-	jekyll build -s raw -d raw/_site
-	sed -i 's/-data\/posts//g' raw/_site/blog-data/includes/side.html
-	sed -i 's/.html//g' raw/_site/blog-data/includes/side.html
+all: clean site
 
 clean:
-	rm -fr full/_site raw/_site
+	rm -fr _site
 
-copy:
+site:
+	jekyll build
+	mkdir _site/blog-data/posts
+	for f in `ls _site/blog`; do mv _site/blog/$$f/index.html _site/blog-data/posts/$$f.html; done
+	rm -fr _site/blog
 	rm -fr ../multilatex/app/public/blog-data
-	cp -r raw/_site/blog-data ../multilatex/app/public/blog-data
+	cp -r _site/blog-data ../multilatex/app/public/blog-data
+	rm -fr ../multilatex/app/public/static/blog
+	cp -r _site/static/blog ../multilatex/app/public/static/blog

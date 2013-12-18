@@ -20,7 +20,7 @@ silly to mix up names and logos.) Someone could look at it and just see a single
 long looping curve, but there is a bit of reasoning behind it. To make it
 more visible I also created a rectangle one.
 
-![Multilatex logo](/blog/assets/img/logo.png)
+![Multilatex logo](/static/blog/img/logo.png)
 
 I created the SVG with Inkscape and I used [Fontello][fontello] to convert it to
 fonts usable in browsers.
