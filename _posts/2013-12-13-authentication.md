@@ -39,7 +39,7 @@ have on other sites, I've chosen to not ask much on signup. I've included a
 sign-up box on the main page with three fields: the desired username, password
 and password confirmation.
 
-![signup form](/static/blog/img/quick-signup.png)
+![signup form](/s/blog/img/quick-signup.png)
 
 All other information (real name, email address, birth day) can be entered when
 desired.
